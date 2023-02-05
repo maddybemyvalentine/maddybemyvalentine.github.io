@@ -8,7 +8,7 @@ function writeHeader() {
     headerText.innerText = headerText1.slice(0, index);
     index++;
 }
-const nameInterval = setInterval(writeHeader, 90);
+const nameInterval = setInterval(writeHeader, 150);
 setTimeout(function( ) { clearInterval( nameInterval ); }, 90*25);
 
 function writeDesc() {

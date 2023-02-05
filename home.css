@@ -5,37 +5,10 @@
     margin: 0;
 }
 
-.navbar {
-    font-family: 'Varela Round', sans-serif;
-    overflow: hidden;
-    background-color: #22272e;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-  }
-  
-  /* Links inside the navbar */
-  .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 300ms ease-in-out;
-  }
-  
-  /* Change background on mouse-over */
-  .navbar a:hover {
-    background: #ddd;
-    color: black;
-  }
-
-
 .introGrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #22272e
+    background-color: #ebb2d0
 }
 
 .L0{
@@ -61,9 +34,12 @@
 
 #headerText{
     color: white;
-    font-size: 6vmin;
+    font-size: 8vmin;
     font-family: 'Varela Round', sans-serif;
     transition: 300ms ease-in-out;
+    -webkit-animation: breathing 3s ease-out infinite normal;
+    animation: breathing 3s ease-out infinite normal;
+    -webkit-font-smoothing: antialiased;
 }
 
 #headerText:hover{
@@ -92,19 +68,17 @@ hr{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #22272e
+    background-color: #ebb2d0
 }
 
 #projectsHeader{
     text-align: center;
-    color: #adbac7;
+    color: white;
     font-size: 2vmin;
     font-family: 'Varela Round', sans-serif;
     height: 10vh;
     padding-bottom: 5vh;
-    -webkit-animation: breathing 3s ease-out infinite normal;
-    animation: breathing 3s ease-out infinite normal;
-    -webkit-font-smoothing: antialiased;
+
 }
 
 #projectsHeaderDiv{
@@ -144,24 +118,6 @@ hr{
     width: 50vw;
 }
 
-.projectSrc{
-    -webkit-animation: backInUp .7s;
-    animation: backInUp .7s;
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-
-    text-align: center;
-    color: #adbac7;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 2vmin;
-    width: 50vw;
-    cursor: pointer;
-}
-
-.projectsSrc:hover{
-  transition: 300ms ease-in-out;
-  transform: scale(1.025);
-}
 
 .image{
     -webkit-animation: backInLeft .7s;
@@ -184,7 +140,7 @@ hr{
 .slideshow-container {
     height: 90vh;
     position: relative;
-    background-color: #22272e;
+    background-color: #ebb2d0;
 }
 
 /* Next & previous buttons */
@@ -218,7 +174,7 @@ hr{
     height: 30px;
     width: 30px;
     margin: 0 5px;
-    background-color: rgb(107, 106, 106);
+    background-color: white;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -226,32 +182,11 @@ hr{
   }
 
   .active, .dot:hover {
-    background-color: #eb6645;
+    background-color: black;
     
 }
   
   
-
-  .icons{
-    width: 4vw;
-    height: 4vw;
-    fill: white;
-    transition: 300ms ease-in-out;
-  }
-
-  .icons:hover{
-    transform: scale(1.1);
-    
-}
-
-  .socials{
-    font-size: 2vmin;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-  }
 
 
   @-webkit-keyframes breathing {
