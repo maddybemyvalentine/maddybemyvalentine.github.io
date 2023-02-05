@@ -12,8 +12,8 @@
 }
 
 .L0{
-    height: 90vh;
-    grid-column: 1/2;
+    height: 100vh;
+    grid-column: 1/3;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -34,7 +34,7 @@
 
 #headerText{
     color: white;
-    font-size: 8vmin;
+    font-size: 12vmin;
     font-family: 'Varela Round', sans-serif;
     transition: 300ms ease-in-out;
     -webkit-animation: breathing 3s ease-out infinite normal;
