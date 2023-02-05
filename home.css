@@ -57,6 +57,28 @@
     transition: 300ms ease-in-out;
 }
 
+.headerDescs{
+  color: white;
+  font-size: 4vmin;
+  font-family: 'Varela Round', sans-serif;
+  vertical-align: middle;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 1vh;
+  transition: 300ms ease-in-out;
+}
+
+.headerDescz{
+  color: white;
+  font-size: 2vmin;
+  font-family: 'Varela Round', sans-serif;
+  vertical-align: middle;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 1vh;
+  transition: 300ms ease-in-out;
+}
+
 hr{
     opacity: 0.2;
 }
