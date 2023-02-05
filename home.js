@@ -1,7 +1,7 @@
 
 
 let headerText = document.getElementById("headerText");
-const headerText1 = "</ Tim Walker >"
+const headerText1 = "Maddy <3"
 
 let index = 0;
 function writeHeader() {
